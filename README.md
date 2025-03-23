@@ -28,7 +28,7 @@
 
 ```bash
 # 克隆仓库
-git clone [your-repo-url]
+git clone https://github.com/NorthernDream/spa-template.git
 cd spa-template
 
 # 安装依赖
