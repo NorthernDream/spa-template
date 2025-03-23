@@ -1,0 +1,201 @@
+# 依赖
+/node_modules
+/.pnp
+.pnp.js
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
+.npm
+# Snowpack依赖目录
+web_modules/
+
+# 测试
+/coverage
+/tests/e2e/videos/
+/tests/e2e/screenshots/
+/tests/unit/coverage/
+/cypress/videos/
+/cypress/screenshots/
+.nyc_output
+junit.xml
+*.lcov
+
+# 构建输出
+/dist
+/build
+/out
+/storybook-static
+/.swc
+.rollup.cache
+
+# 环境变量文件
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env.*
+!.env.example
+.env
+.env.test
+
+# 日志
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# 编辑器目录和文件
+# VSCode
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+.history/
+*.code-workspace
+
+# JetBrains IDEs
+.idea/
+*.iml
+*.ipr
+*.iws
+.idea_modules/
+out/
+
+# Eclipse
+.settings/
+.classpath
+.project
+.metadata
+bin/
+tmp/
+*.tmp
+*.bak
+*.swp
+*~.nib
+
+# SublimeText
+*.tmlanguage.cache
+*.tmPreferences.cache
+*.stTheme.cache
+*.sublime-workspace
+*.sublime-project
+
+# Vim
+[._]*.s[a-v][a-z]
+[._]*.sw[a-p]
+[._]s[a-rt-v][a-z]
+[._]ss[a-gi-z]
+[._]sw[a-p]
+Session.vim
+.netrwhist
+*~
+
+# Visual Studio
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+*.user
+*.userosscache
+*.dbmdl
+*.dbproj.schemaview
+*.jfm
+*.pfx
+ipch/
+$tf/
+
+# 操作系统文件
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.Spotlight-V100
+.Trashes
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.stackdump
+[Dd]esktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+*.lnk
+
+# Linux
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+
+# 缓存
+.cache
+.parcel-cache
+.eslintcache
+.stylelintcache
+.rts2_cache*/
+.next
+.nuxt
+.output
+.vercel
+.turbo
+.docusaurus
+.serverless/
+.fusebox/
+.dynamodb/
+.tern-port
+.webpack/
+.grunt
+.lock-wscript
+.node_repl_history
+.vuepress/dist
+.temp
+.cache
+
+# 前端特定
+.sass-cache/
+*.css.map
+*.sass.map
+*.scss.map
+.browserslistrc
+browserslist
+public/hot
+*.tsbuildinfo
+
+# 其他
+*.log
+*.bak
+/temp
+/tmp
+/backstop_data/bitmaps_test
+/.sass-cache
+/connect.lock
+/libpeerconnection.log
+.pnpm-store/
+.npm/
+.opt-in
+.opt-out
+.DS_Store?
+*.pid
+*.seed
+*.pid.lock 
