@@ -1,13 +1,3 @@
-/*
- * File: \\README.md
- * Project: spa-template
- * Created: Sun Mar 23 2025
- * Author: Admin
- * -----
- * Last Modified: Sunday, 23rd March 2025 11:23:48 pm
- * Modified By: Admin
- */
-
 # SPA Template
 
 一个现代化的React单页应用(SPA)模板，集成了常用工具和最佳实践。
